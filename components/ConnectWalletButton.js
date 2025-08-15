@@ -1,11 +1,1 @@
-import { useState } from "react";
-export default function ConnectWalletButton(){
-  const [connected,setConnected] = useState(false);
-  return (
-    <div className="connect-fixed">
-      <button className="btn" onClick={()=>setConnected(!connected)}>
-        {connected ? "Wallet: 0x12...abC" : "Connect Wallet"}
-      </button>
-    </div>
-  );
-}
+import {useState} from 'react';export default function ConnectWalletButton(){const[ok,setOk]=useState(false);return(<div className='connect-fixed'><button className='btn' onClick={()=>setOk(!ok)}>{ok?'Wallet: 0x12...abC':'Connect Wallet'}</button></div>);}
