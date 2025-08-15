@@ -2,19 +2,14 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
 export default function Page(){
-  return (
-    <>
-      <Head>
-        <title>Paid Advertising | HYPEPAD</title><meta name='description' content='Buy banner slots and trending boosts.'/><link rel='canonical' href='https://www.hypepad.app/ads'/><meta property='og:title' content='Paid Advertising | HYPEPAD'/><meta property='og:description' content='Buy banner slots and trending boosts.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://www.hypepad.app/ads'/><meta property='og:image' content='/hypepad-banner.jpg'/><meta name='twitter:card' content='summary_large_image'/><meta name='twitter:title' content='Paid Advertising | HYPEPAD'/><meta name='twitter:description' content='Buy banner slots and trending boosts.'/><meta name='twitter:image' content='/hypepad-banner.jpg'/>
-      </Head>
-      <Navbar />
-      <main className="container">
-        <h1>Paid Advertising</h1>
-        <p className="hero-sub">Buy banner slots and trending boosts.</p>
-      </main>
-      <Footer />
-    </>
-  );
+  return (<>
+    <Head><title>Paid Advertising | HYPEPAD</title><meta name='description' content='Buy banner slots & boosts.'/><link rel='canonical' href='https://www.hypepad.app/ads'/><meta property='og:title' content='Paid Advertising | HYPEPAD'/><meta property='og:description' content='Buy banner slots & boosts.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://www.hypepad.app/ads'/><meta property='og:image' content='/hypepad-banner.jpg'/></Head>
+    <Navbar />
+    <main className="container">
+      <h1>Paid Advertising</h1>
+      <p className="hero-sub">Buy banner slots & boosts.</p>
+    </main>
+    <Footer />
+  </>);
 }
