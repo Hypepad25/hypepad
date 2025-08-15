@@ -1,6 +1,6 @@
 {
-  "name": "hypepad-ui-fix",
-  "version": "1.0.0",
+  "name": "hypepad-ultra",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

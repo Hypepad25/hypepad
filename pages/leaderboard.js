@@ -6,9 +6,12 @@ export default function Page(){
   return (<>
     <Head><title>Trending & Leaderboard | HYPEPAD</title><meta name='description' content='Live trending tokens and boosts.'/><link rel='canonical' href='https://www.hypepad.app/leaderboard'/><meta property='og:title' content='Trending & Leaderboard | HYPEPAD'/><meta property='og:description' content='Live trending tokens and boosts.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://www.hypepad.app/leaderboard'/><meta property='og:image' content='/hypepad-banner.jpg'/></Head>
     <Navbar />
-    <main className="container">
-      <h1>Trending & Leaderboard</h1>
-      <p className="hero-sub">Live trending tokens and boosts.</p>
+    <main className="section">
+      <div className="container">
+        <h1>Trending & Leaderboard</h1>
+        <p style={{color:'#a9abc0'}}>Live trending tokens and boosts.</p>
+        <div className="card" style={{marginTop:'1rem'}}>Content coming soon.</div>
+      </div>
     </main>
     <Footer />
   </>);

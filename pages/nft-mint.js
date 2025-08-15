@@ -6,9 +6,12 @@ export default function Page(){
   return (<>
     <Head><title>NFT Mint Tool | HYPEPAD</title><meta name='description' content='Launch and mint NFT collections.'/><link rel='canonical' href='https://www.hypepad.app/nft-mint'/><meta property='og:title' content='NFT Mint Tool | HYPEPAD'/><meta property='og:description' content='Launch and mint NFT collections.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://www.hypepad.app/nft-mint'/><meta property='og:image' content='/hypepad-banner.jpg'/></Head>
     <Navbar />
-    <main className="container">
-      <h1>NFT Mint Tool</h1>
-      <p className="hero-sub">Launch and mint NFT collections.</p>
+    <main className="section">
+      <div className="container">
+        <h1>NFT Mint Tool</h1>
+        <p style={{color:'#a9abc0'}}>Launch and mint NFT collections.</p>
+        <div className="card" style={{marginTop:'1rem'}}>Content coming soon.</div>
+      </div>
     </main>
     <Footer />
   </>);

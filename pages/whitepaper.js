@@ -6,9 +6,12 @@ export default function Page(){
   return (<>
     <Head><title>Whitepaper | HYPEPAD</title><meta name='description' content='Docs and tokenomics.'/><link rel='canonical' href='https://www.hypepad.app/whitepaper'/><meta property='og:title' content='Whitepaper | HYPEPAD'/><meta property='og:description' content='Docs and tokenomics.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://www.hypepad.app/whitepaper'/><meta property='og:image' content='/hypepad-banner.jpg'/></Head>
     <Navbar />
-    <main className="container">
-      <h1>Whitepaper</h1>
-      <p className="hero-sub">Docs and tokenomics.</p>
+    <main className="section">
+      <div className="container">
+        <h1>Whitepaper</h1>
+        <p style={{color:'#a9abc0'}}>Docs and tokenomics.</p>
+        <div className="card" style={{marginTop:'1rem'}}>Content coming soon.</div>
+      </div>
     </main>
     <Footer />
   </>);
