@@ -1,0 +1,34 @@
+:root {
+  --bg: #0b0b0f; --panel:#13131a; --text:#f5f5f7; --muted:#b5b6bd;
+  --brand:#ff7a18; --brand-700:#e66811;
+}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica Neue,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+a{color:var(--text);text-decoration:none}
+*{box-sizing:border-box}
+.container{max-width:1200px;margin:0 auto;padding:1.25rem}
+.btn{background:var(--brand);color:#0b0b0f;border:none;padding:.75rem 1rem;border-radius:9999px;font-weight:700;cursor:pointer}
+.btn:hover{background:var(--brand-700)}
+.card{background:var(--panel);border:1px solid #1f1f2a;border-radius:16px;padding:1rem}
+.muted{color:var(--muted)}
+/* grid */
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(12,1fr)}.col-12{grid-column:span 12}.col-6{grid-column:span 6}.col-4{grid-column:span 4}
+@media(max-width:768px){.col-6{grid-column:span 12}.col-4{grid-column:span 12}}
+/* Navbar */
+.navbar{position:sticky;top:0;z-index:50;background:rgba(11,11,15,.9);border-bottom:1px solid #1f1f2a;backdrop-filter:blur(6px)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:800}
+.brand .rocket{color:var(--brand)}
+.nav-links{display:flex;gap:1rem}
+.nav-link{opacity:.9}
+.nav-link:hover{color:var(--brand);opacity:1}
+.hamburger{display:none;border:1px solid #2a2a36;border-radius:8px;padding:.5rem;background:transparent;color:var(--text)}
+@media(max-width:1024px){.nav-links{display:none}.hamburger{display:block}}
+.mobile-menu{display:none;padding:.75rem 1rem;border-top:1px solid #1f1f2a}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;padding:.6rem 0}
+/* Connect Wallet */
+.connect-fixed{position:fixed;top:12px;right:12px;z-index:60}
+/* Hero */
+.hero{text-align:center;padding:3rem 1rem}
+.hero img{max-width:100%;border-radius:16px;border:1px solid #1f1f2a}
+footer{border-top:1px solid #1f1f2a;padding:1.25rem;text-align:center;color:var(--muted)}
